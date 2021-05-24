@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pyclase">
+    <output-path>$PROJECT_DIR$/out/artifacts/pyclase</output-path>
+    <root id="archive" name="pyclase.jar">
+      <element id="module-output" name="PyClase" />
+    </root>
+  </artifact>
+</component>

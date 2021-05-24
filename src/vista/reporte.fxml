@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.vista.reporte.ReporteController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <TableView fx:id="tblDatos" prefHeight="200.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="colIdCat" prefWidth="75.0" text="IDCAT" />
+          <TableColumn fx:id="colNomCat" prefWidth="150.0" text="NOMCAT" />
+            <TableColumn fx:id="colDescCat" prefWidth="150.0" text="DESCCAT" />
+            <TableColumn fx:id="colIdTip" prefWidth="75.0" text="IDTIP" />
+            <TableColumn fx:id="colNomTip" prefWidth="150.0" text="NOMTIP" />
+            <TableColumn fx:id="colDescTip" prefWidth="150.0" text="DESCTIP" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
